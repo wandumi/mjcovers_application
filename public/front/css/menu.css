@@ -72,6 +72,11 @@
 		top: 50%;
 		color: #fff;
 	}
+
+    #top-menu {
+        display: none;
+    }
+
 }
 
 /* <header id="menu">

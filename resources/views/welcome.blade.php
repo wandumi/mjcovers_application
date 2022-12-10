@@ -24,8 +24,23 @@
 <div>
     <!-- Main Menu -->
     <nav class="main-header">
+        <div class="container " id="top-menu">
+            <ul class="site-nav">
+                <li>Phone</li>
+            </ul>
+            <div>
+                <ul class="site-nav">
+                    <li>Login</li>
+                </ul>
+            </div>
+        </div>
         <div class="container navigation">
-            <img src="{{ asset('front/images/mjcover_logo.jpg') }}" alt="logo" class="brand-logo" />
+            <a href="{{ url("/") }}">
+                <img src="{{ asset("front/images/mjcover_logo.jpg") }}" alt="logo" class="brand-logo" />
+
+            </a>
+
+
 
             <ul class="site-nav" id="navMenuDesktop">
                 <li>
