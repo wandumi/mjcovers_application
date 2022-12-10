@@ -24,14 +24,22 @@
 <div>
     <!-- Main Menu -->
     <nav class="main-header">
-        <div class="container " id="top-menu">
-            <ul class="site-nav">
-                <li>Phone</li>
-            </ul>
-            <div>
-                <ul class="site-nav">
-                    <li>Login</li>
-                </ul>
+        <div class="container" id="top-menu">
+            <div class="top-menu">
+                <div class="site-nav">
+                    <div style="padding-right: 10px;">
+                        <i class="icon fas fa-phone-alt" ></i><a class="color:#eee;" href="tel:+27 772 657 1460">+27 787 777 4773</a>
+                    </div>
+
+                    <div>
+                        <i class=" icon fas fa-envelope" ></i><a class="color:#eee;" href="mailto:info@mjcovers.co.za">info@mjcovers.co.za</a>
+                    </div>
+                </div>
+            </div>
+            <div class="top-menu">
+                <a href="{{ url("login") }}" class="site-nav" id="login">
+                    Login
+                </a>
             </div>
         </div>
         <div class="container navigation">
@@ -39,8 +47,6 @@
                 <img src="{{ asset("front/images/mjcover_logo.jpg") }}" alt="logo" class="brand-logo" />
 
             </a>
-
-
 
             <ul class="site-nav" id="navMenuDesktop">
                 <li>
@@ -292,12 +298,7 @@
                             >
                             <span>
                     <a href="tel:+27 772 657 1460"
-                    >+27 772 657 1460</a
-                    > |
-                                <!-- <i class="icon fas fa-phone-alt"></i> -->
-                      <a href="tel:+27 772 657 1460"
-                      >+27 787 777 4773</a
-                      >
+                    >+27 772 657 1460</a>
 
                   </span>
                         </li>
@@ -305,9 +306,7 @@
                     <div class="address-items">
                         <li >
                             <i class="icon fas fa-envelope"></i>
-
-                            <a href="mailto:info@mjcovers.co.za">info@mjcovers.co.za</a> | <br /><br />
-                            <a style="padding-left: 30px;" href="mailto:allseasonfabrics1@gmail.com">allseasonfabrics1@gmail.com</a>
+                            <a href="mailto:allseasonfabrics1@gmail.com">allseasonfabrics1@gmail.com</a>
 
                         </li>
                     </div>

@@ -17,6 +17,7 @@ body {
 
 a {
 	text-decoration: none;
+    color: #2a304c;
 }
 
 h1,
@@ -156,11 +157,37 @@ p {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 17vh;
+	height: 13vh;
 }
 
 .main-header .brand-logo {
 	width: 200px;
+}
+
+.top-menu {
+    margin-top: 20px;
+    margin-bottom: 0px;"
+}
+
+.icon {
+   color: #2a304c;
+    padding-right: 5px;
+}
+
+#login {
+
+    margin-right: 15px;
+    padding: 10px 20px;
+    background: #2a304c;
+    color: #fff;
+    border: 1px solid black;
+
+}
+
+#login:hover {
+    background: #fff;
+    color: #000;
+    border: 1px solid black;
 }
 
 .site-nav {
@@ -182,14 +209,20 @@ p {
 }
 
 .site-nav > li > a:hover {
-	background: #000;
+	background: #2a304c;
 	color: #fff;
 	border-radius: 0.2em;
 }
 
 .site-nav > .nav-right {
 	margin-right: auto;
-	align-items: center;
+}
+
+#top-menu{
+    display: flex;
+    justify-content: space-between;
+
+
 }
 /* About */
 #about {
