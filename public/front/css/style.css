@@ -165,8 +165,29 @@ p {
 }
 
 .top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 20px;
     margin-bottom: 0px;"
+}
+
+.top-contact:hover {
+    cursor: pointer;
+}
+
+
+.space-sm-right {
+   padding-right: 10px;
+}
+
+.margin-sm-right {
+    margin-right: 10px;
+}
+
+.border-sm {
+    border: 1px solid #2a304c;
+    padding: 5px 10px;
 }
 
 .icon {

@@ -26,15 +26,16 @@
     <nav class="main-header">
         <div class="container" id="top-menu">
             <div class="top-menu">
-                <div class="site-nav">
-                    <div style="padding-right: 10px;">
-                        <i class="icon fas fa-phone-alt" ></i><a class="color:#eee;" href="tel:+27 772 657 1460">+27 787 777 4773</a>
+
+                    <div class="margin-sm-right">
+                        <i class=" icon fas fa-envelope" ></i><a class="top-contact" href="mailto:info@mjcovers.co.za">info@mjcovers.co.za</a>
+                    </div>
+                    
+
+                    <div class="">
+                        <i class="icon fas fa-phone-alt" ></i><a class="top-contact" href="tel:+27 772 657 1460">+27 787 777 4773</a>
                     </div>
 
-                    <div>
-                        <i class=" icon fas fa-envelope" ></i><a class="color:#eee;" href="mailto:info@mjcovers.co.za">info@mjcovers.co.za</a>
-                    </div>
-                </div>
             </div>
             <div class="top-menu">
                 <a href="{{ url("login") }}" class="site-nav" id="login">
