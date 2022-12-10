@@ -1,0 +1,162 @@
+/* Navigation */
+
+@media all and (max-width: 768px) {
+	.container {
+		padding: 20px;
+	}
+
+	#products {
+		margin: 2rem 0;
+	}
+
+	#products .covers-container .whatwedo-main {
+		grid-template-columns: 1fr;
+		grid-column: 1fr;
+	}
+
+	#main-footer img {
+		margin-top: 0.1rem;
+		width: 200px;
+		display: block;
+	}
+
+	.main-header {
+		z-index: 2;
+	}
+
+	.site-nav {
+		position: absolute;
+		top: 85px;
+		right: -25px;
+		left: 0px;
+		display: none;
+	}
+	#navigation {
+		padding: 0;
+	}
+	.site-nav > li {
+		/* padding: 10px 0; */
+		border-bottom: 1px solid #333;
+		background-color: #000;
+
+		padding: 10px;
+	}
+	.site-nav > li:first-child {
+		padding-top: 20px;
+	}
+	.site-nav > li:last-child {
+		padding-bottom: 10px;
+	}
+	.site-nav > li a {
+		color: #fff;
+		display: block;
+	}
+	.menu {
+		/* menu button on mobile */
+		display: block;
+	}
+	.main-header .menu-lines {
+		width: 20px;
+		height: 3px;
+		margin-bottom: 4px;
+		background-color: #000;
+		list-style: none;
+	}
+	.active {
+		display: block;
+	}
+	/* Showcase */
+	#home-showcase .article-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	#main-footer .footer-container {
+		grid-template-columns: 1fr;
+	}
+
+	#main-footer .footer-container > *:last-child {
+		grid-column: 1fr;
+	}
+
+	#main-footer .footer-container {
+		border-bottom: 1px dottet #444;
+		padding-bottom: 1rem;
+	}
+
+	#main-footer .footer-container input[type="email"],
+	#main-footer .footer-container input[type="submit"] {
+		width: 100%;
+	}
+
+	#main-footer .footer-container > :nth-child(3) {
+		display: none;
+	}
+
+	#contact .contact-container {
+		grid-template-columns: 1fr;
+	}
+
+	#showcase .showcase-container,
+	#main-footer .footer-container,
+	#about .about-container,
+	#main-footer .footer-container {
+		grid-template-columns: 1fr;
+	}
+	#main-footer .footer-container > *:last-child {
+		grid-column: 1;
+	}
+	/* call to action */
+	#call-action {
+		text-align: center;
+		padding: 5rem 0.5rem;
+	}
+
+	#call-action p {
+		font-size: 1.5rem;
+	}
+
+	#call-action a {
+		font-size: 1.5rem;
+		border-bottom: none;
+	}
+
+	#contact .contact-container > :first-child,
+	#contact .contact-container > :last-child {
+		padding: 1rem 0;
+	}
+
+	#contact .address-items li {
+		font-size: 0.8rem;
+		text-align: center;
+	}
+}
+
+@media (max-width: 480px) {
+	#showcase .showcase-container,
+	#main-footer .footer-container,
+	#about .about-container {
+		grid-template-columns: 1fr;
+	}
+
+	#main-footer .footer-container > *:last-child {
+		grid-column: 1;
+	}
+
+	.site-nav {
+		position: absolute;
+		top: 58px;
+		right: -25px;
+		left: 0px;
+		display: none;
+		width: 100vw;
+		height: 100vh;
+	}
+
+	.site-nav li {
+		padding: 0 10px;
+	}
+
+	.active {
+		display: block;
+	}
+}

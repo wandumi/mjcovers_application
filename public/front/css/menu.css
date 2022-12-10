@@ -1,0 +1,95 @@
+#menu {
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #000;
+}
+
+#menu h1 {
+	margin: 0;
+	font-size: 18px;
+}
+
+#menu nav {
+	position: relative;
+}
+
+#menu nav ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	list-style: none;
+}
+
+#menu nav ul li {
+	margin-left: 10px;
+}
+
+#menu nav ul li a {
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: 0.1em;
+	padding: 10px;
+	opacity: 0.7;
+	border-bottom: 2px solid transparent;
+	transition: opacity.3s ease, border-bottom.3s ease;
+	-webkit-transition: opacity.3s ease, border-bottom.3s ease;
+	-moz-transition: opacity.3s ease, border-bottom.3s ease;
+	-ms-transition: opacity.3s ease, border-bottom.3s ease;
+	-o-transition: opacity.3s ease, border-bottom.3s ease;
+}
+
+#menu nav ul li a:hover {
+	opacity: 0.9;
+	border-bottom: 2px solid rgba(darkblue, 0.8);
+}
+
+@media screen and (max-width: 680px) {
+	#menu nav {
+		display: none;
+	}
+	#menu nav ul {
+		content: "";
+		display: inline-block;
+		height: 2px;
+		width: 70%;
+		position: absolute;
+		left: 15%;
+		top: 50%;
+		color: #fff;
+	}
+	#menu nav ul::after {
+		display: none;
+		content: "";
+		display: inline-block;
+		height: 2px;
+		width: 70%;
+		position: absolute;
+		left: 15%;
+		top: 50%;
+		color: #fff;
+	}
+}
+
+/* <header id="menu">
+<h1>MJCovers</h1>
+<nav tabindex="0">
+    <ul role="menubar" aria-haspopup="true">
+        <li role="menuitem" aria-label="Home">
+            <a href="/">Home</a>
+        </li>
+        <li role="menuitem" aria-label="What We Do">
+            <a href="#about">What We Do</a>
+        </li>
+        <li role="menuitem" aria-label="Showcase">
+            <a href="#showcase">Showcase</a>
+        </li>
+        <li role="menuitem" aria-label="Contact Us">
+            <a href="#contact">Contact Us</a>
+        </li>
+    </ul>
+</nav>
+</header> */
